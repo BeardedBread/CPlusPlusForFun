@@ -72,7 +72,7 @@ int main(int argc, char** argv){
 	usleep(1000000);
 	int pos = splitted_array_search(split_array, 0, n-1, val, n);
 	std::cout << std::endl;
-	if (val >=0)
+	if (pos >=0)
 		std::cout << val << " is at index " << pos << std::endl;
 	else
 		std::cout << "Value not found" << std::endl;
